@@ -1,0 +1,20 @@
+{
+    "name": "30053063/delivery-test",
+    "autoload": {
+        "psr-4": {
+            "30053063\\DeliveryTest\\": "src/",
+            "Src\\Modules\\CalculateDeliveryPrice\\Services\\Delivery\\": "src/Modules/CalculateDeliveryPrice/Services/Delivery",
+            "Src\\Database\\": "src/Database/",
+            "Src\\Config\\": "src/Config"
+        }
+    },
+    "authors": [
+        {
+            "name": "Histel",
+            "email": "74766995+Histel@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "ext-mysqli": "*"
+    }
+}
