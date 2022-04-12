@@ -9,10 +9,10 @@ class DeliveryElementsMigration extends Migration
     {
         return "create table {$this->table_name} (
                     id int not null AUTO_INCREMENT,
-                    name varchar(255),
+                    name varchar(255) not null,
                     price float(11) default 0,
-                    date date,
-                    company_id int(11),
+                    date date not null,
+                    company_id int(11) not null,
                     primary key (id),
                     foreign key (company_id) references companies(id)
                 );";
